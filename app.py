@@ -111,7 +111,7 @@ if user_menu == 'Overall Analysis':
     fig = px.line(atheletes_over_time , x = 'Year' , y = 'Name' )
     # fig.show()
 
-    st.title('Events nation over the year')
+    st.title("Athletes over the years")
 
     st.plotly_chart(fig)
 
