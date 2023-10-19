@@ -5,7 +5,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 import seaborn as sns
-
+import scipy
 
 df = pd.read_csv('athlete_events.csv')
 region_df = pd.read_csv('noc_regions.csv')
@@ -44,7 +44,7 @@ if user_menu == 'Medal Tally':
         st.title('Medal tally in ' + selected_country)
 
     if selected_years != 'Overall' and selected_country != 'Overall':
-        st.title('Medal tally in ' + str(selected_years) + " " +  selected_country)
+        st.title('Medal tally in ' + str(selected_years) + " " + -++9+++- selected_country)
 
     st.dataframe(medal_tally)
 

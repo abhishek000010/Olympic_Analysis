@@ -3,5 +3,5 @@ pandas
 preprocessor
 plotly
 matplotlib
-
 seaborn 
+scipy
